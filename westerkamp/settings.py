@@ -23,7 +23,7 @@ DEFAULT_SECRET_KEY = 'd99a0-4$!sp%1vs1!!c0uc!rv3@_qsd)b3_ox!k3ot-rpi1v4!'
 SECRET_KEY = os.environ.get('SECRET_KEY', DEFAULT_SECRET_KEY)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'pyfam',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -102,3 +103,15 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
+# Get settings from environment
+def env_var(key, default=None):
+    """Retrieves env vars and makes Python boolean replacements"""
+    val = os.environ.get(key, default)
+    if val == 'True':
+        val = True
+    elif val == 'False':
+        val = False
+    return val
+
+DEBUG = env_var('DJANGO_DEBUG', False)
