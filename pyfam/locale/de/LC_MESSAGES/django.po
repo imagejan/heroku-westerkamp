@@ -1,0 +1,168 @@
+# German translation file for PyFam.
+# Copyright (C) 2014 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Jan Eglinger <jan.eglinger@gmail.com>, 2014.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-12 23:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pyfam/admin.py:18
+msgid "Contact Info"
+msgstr "Kontaktdaten"
+
+#: pyfam/models.py:12
+msgid "male"
+msgstr "männlich"
+
+#: pyfam/models.py:13
+msgid "female"
+msgstr "weiblich"
+
+#: pyfam/models.py:14
+msgid "not specified"
+msgstr "anderes"
+
+#: pyfam/models.py:16
+msgid "fam ID"
+msgstr "Stamm-Nr."
+
+#: pyfam/models.py:17
+msgid "last name"
+msgstr "Nachname"
+
+#: pyfam/models.py:18
+msgid "maiden name"
+msgstr "Geburtsname"
+
+#: pyfam/models.py:19
+msgid "first name"
+msgstr "Vorname"
+
+#: pyfam/models.py:20
+msgid "given names"
+msgstr "alle Vornamen"
+
+#: pyfam/models.py:21
+msgid "comment"
+msgstr "Kommentar"
+
+#: pyfam/models.py:22
+msgid "gender"
+msgstr "Geschlecht"
+
+#: pyfam/models.py:55
+msgid "member"
+msgstr "Mitglied"
+
+#: pyfam/models.py:56
+msgid "members"
+msgstr "Mitglieder"
+
+#: pyfam/models.py:63
+msgid "marriage"
+msgstr "Heirat"
+
+#: pyfam/models.py:64
+msgid "divorce"
+msgstr "Scheidung"
+
+#: pyfam/models.py:70
+msgid "date"
+msgstr "Datum"
+
+#: pyfam/models.py:71
+msgid "place"
+msgstr "Ort"
+
+#: pyfam/models.py:72 pyfam/models.py:106
+msgid "type"
+msgstr "Art"
+
+#: pyfam/models.py:78
+msgid "event"
+msgstr "Ereignis"
+
+#: pyfam/models.py:79
+msgid "events"
+msgstr "Ereignisse"
+
+#: pyfam/models.py:82
+msgid "street"
+msgstr "Straße"
+
+#: pyfam/models.py:83
+msgid "street2"
+msgstr "Zusatz"
+
+#: pyfam/models.py:84
+msgid "zip"
+msgstr "PLZ"
+
+#: pyfam/models.py:85
+msgid "city"
+msgstr "Stadt"
+
+#: pyfam/models.py:86
+msgid "country"
+msgstr "Land"
+
+#: pyfam/models.py:90
+msgid "address"
+msgstr "Adresse"
+
+#: pyfam/models.py:91
+msgid "addresses"
+msgstr "Adressen"
+
+#: pyfam/models.py:100
+msgctxt "Phone number"
+msgid "Home"
+msgstr "Zuhause"
+
+#: pyfam/models.py:101
+msgid "Work"
+msgstr "Arbeit"
+
+#: pyfam/models.py:102
+msgid "Mobile"
+msgstr "Mobil"
+
+#: pyfam/models.py:103
+msgid "Other"
+msgstr "Sonstiges"
+
+#: pyfam/models.py:109
+msgid "number"
+msgstr "Telefonnummer"
+
+#: pyfam/models.py:110 pyfam/models.py:120
+msgid "primary"
+msgstr "Primär"
+
+#: pyfam/models.py:114
+msgid "phone number"
+msgstr "Telefonnummer"
+
+#: pyfam/models.py:115
+msgid "phone numbers"
+msgstr "Telefonnummern"
+
+#: pyfam/models.py:119 pyfam/models.py:124
+msgid "email address"
+msgstr "E-Mail-Adresse"
+
+#: pyfam/models.py:125
+msgid "email addresses"
+msgstr "E-Mail-Adressen"

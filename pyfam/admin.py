@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.utils.translation import ugettext_lazy as _
 from pyfam.models import Member, Event, Address, Phone, Email
 
 class PhoneInline(admin.TabularInline):
@@ -14,7 +15,7 @@ class MemberAdmin(admin.ModelAdmin):
         (None,           {'fields': [('fam_id', 'gender'),
                                      ('last_name', 'maiden_name'),
                                      ('first_name', 'given_names')]}),
-        ('Contact Info', {'fields': ['address'],
+        (_('Contact Info'), {'fields': ['address'],
                           'classes': []}),
     ]
     inlines = [PhoneInline, EmailInline] # TODO: sort these to Contact Info
